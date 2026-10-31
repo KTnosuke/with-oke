@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Yu Gothic", sans-serif;
+    background: #101722;
+    color: #F1F4F8;
+}
+
+header {
+    background: linear-gradient(135deg, #172B45, #245B9E);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 10px 0 0;
+    color: #D5E5F7;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: #1B2635;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    border: 1px solid #2D3B4D;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #8DBCF0;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-button {
+    width: 100%;
+    background: #2868AD;
+    color: white;
+    margin-top: 12px;
+}
+
+.sub-button {
+    width: 100%;
+    background: #263B54;
+    color: #B9D9FA;
+    border: 1px solid #41658C;
+}
+
+.person-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #263344;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #35465B;
+}
+
+.person-name {
+    font-weight: bold;
+    color: #F1F4F8;
+}
+
+.person-count {
+    font-size: 13px;
+    color: #A8B5C5;
+}
+
+.free-section {
+    margin-top: 30px;
+}
+
+.song-card {
+    background: #222F40;
+    border: 1px solid #3A4B60;
+    border-radius: 14px;
+    padding: 15px;
+    margin-bottom: 14px;
+}
+
+.song-title {
+    font-size: 19px;
+    font-weight: bold;
+    color: #F1F4F8;
+}
+
+.song-artist {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #C2CDDA;
+}
+
+.song-info {
+    font-size: 13px;
+    color: #A8B5C5;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+.song-stats {
+    background: #172333;
+    color: #C2CDDA;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.song-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.song-actions button {
+    padding: 11px 5px;
+    font-size: 13px;
+}
+
+.sung-button {
+    background: #28496B;
+    color: #D5E9FF;
+}
+
+.popular-button {
+    background: #574522;
+    color: #FFD979;
+}
+
+.edit-button {
+    background: #374354;
+    color: #E0E7F0;
+}
+
+.delete-button {
+    background: #542E35;
+    color: #FFB9C0;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.back-button {
+    background: #263B54;
+    color: #B9D9FA;
+    margin-bottom: 20px;
+}
+
+.empty-message {
+    text-align: center;
+    color: #8998AA;
+    padding: 25px 10px;
+    font-size: 14px;
+}
+
+[hidden] {
+    display: none !important;
+}

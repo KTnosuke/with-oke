@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101722">
+    <title>Withオケ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎤 Withオケ</h1>
+    <p>誰と、何を歌おう？</p>
+</header>
+
+<main id="app">
+
+    <section id="home">
+        <h2>一緒に行く人</h2>
+        <div id="people-list"></div>
+
+        <button id="add-person" class="sub-button">
+            ＋ 人を追加
+        </button>
+
+        <div class="free-section">
+            <h2>🎵 フリー曲</h2>
+            <button id="free-songs" class="main-button">
+                フリー曲リストを見る
+            </button>
+        </div>
+    </section>
+
+    <section id="songs-view" hidden>
+        <button id="back-button" class="back-button">
+            ← 戻る
+        </button>
+
+        <h2 id="list-title"></h2>
+
+        <div id="songs-list"></div>
+
+        <button id="add-song" class="main-button">
+            ＋ 曲を追加
+        </button>
+
+        <button id="delete-person" class="delete-button">
+            この人を削除
+        </button>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
